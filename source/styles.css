@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+ * General styling for all webpages.
+ */
+
+@font-face { /* JetBrains Mono, Regular */
+    font-family: "JetBrains Mono", monospace;
+    src: url("../assets/fonts/JetBrains/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+@font-face { /* JetBrains Mono, Italic */
+    font-family: "JetBrains Mono Italic", monospace;
+    src: url("../assets/fonts/JetBrains/JetBrainsMono-Italic.woff2") format("woff2");
+}
+
+@font-face { /* JetBrains Mono, Bold */
+    font-family: "JetBrains Mono Bold", monospace;
+    src: url("../assets/fonts/JetBrains/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
+@font-face { /* JetBrains Mono, Bold-Italic */
+    font-family: "JetBrains Mono BoldItalic", monospace;
+    src: url("../assets/fonts/JetBrains/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+
+@font-face { /* Montserrat, Regular */
+    font-family: "Montserrat Regular", sans-serif;
+    src: url("../assets/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2");
+}
+
+@font-face { /* Montserrat, Italic */
+    font-family: "Montserrat Italic", sans-serif;
+    src: url("../assets/fonts/Montserrat/Montserrat-Italic.woff2") format("woff2");
+}
+
+@font-face { /* Montserrat, Bold */
+    font-family: "Montserrat Bold", sans-serif;
+    src: url("../assets/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");
+}
+
+@font-face { /* Montserrat, Bold-Italic */
+    font-family: "Montserrat BoldItalic", sans-serif;
+    src: url("../assets/fonts/Montserrat/Montserrat-BoldItalic.woff2") format("woff2");
+}
