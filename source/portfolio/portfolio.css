@@ -5,3 +5,63 @@
 /*
  * Styling for portfolio.html.
  */
+
+.portfolio-item {
+    display: flex;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+    background-color: #2F2F2F;
+
+    min-height: 192px;
+
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.75));
+}
+
+.portfolio-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.portfolio-item-banner {
+    flex: 1;
+
+    border-radius: inherit;
+
+    background-color: #FFF7FF;
+
+    padding: 10px;
+}
+
+.portfolio-item-banner img {
+    border-radius: inherit;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    width: 100%;
+}
+
+.portfolio-item-content {
+    display: flex;
+
+    flex: 1;
+
+    flex-direction: column;
+
+    padding: 10px;
+
+    justify-content: center;
+
+    text-align: justify;
+}
+
+.portfolio-item:nth-child(even) .portfolio-item-content h2 {
+    text-align: left;
+}
+
+.portfolio-item:nth-child(odd) .portfolio-item-content h2 {
+    text-align: right;
+}
