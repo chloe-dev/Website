@@ -17,7 +17,7 @@ you're feeling extra helpful, submit a [Pull Request](https://github.com/chloe-d
 
 ## License
 
-Copyright © 2024, Chloe B.
+Copyright © 2025, Chloe B.
 
 This license henceforth permits all persons to view, use, and alter the source code ("the Source") for personal,
 educational, or design inspiration purposes.
