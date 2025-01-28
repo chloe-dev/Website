@@ -5,3 +5,31 @@
 /*
  * Styles for blog.html.
  */
+
+.blog-listing-wrapper {
+    color: #BFBFBF;
+
+    text-decoration: none;
+}
+
+.blog-listing-wrapper:hover h1 {
+    color: #FFBFFF;
+
+    transition: all 0.5s ease;
+}
+
+.blog-listing {
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+    background-color: #2F2F2F;
+
+    padding: 10px;
+
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.75));
+}
+
+.blog-listing h1 {
+    transition: all 0.5s ease;
+}

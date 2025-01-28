@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Flexbox -> Margin -> Border -> Background -> Padding -> Height/Width -> Objects */
+
+/*
+ * Styles for blog posts.
+ */
+
+code {
+    font-family: "JetBrains Mono", monospace;
+}
+
+code:not(pre code) {
+    border-radius: 3px;
+
+    background-color: #1F1F1F;
+
+    padding: 3px 3px;
+}
+
+pre {
+    border-radius: 10px;
+
+    background-color: #1F1F1F;
+
+    padding: 10px;
+}
