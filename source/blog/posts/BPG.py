@@ -163,10 +163,10 @@ class Generator:
             print("[-]: A blog post with the same ID and title already exists.")
             return False
         except PermissionError: # If lacking permission to open/write to the file.
-            print(f"[-]: Permission to open or write to {file_name} was denied.")
+            print(f"[-]: Permission to open or write to {self.file_name} was denied.")
             return False
         except OSError: # If a general operating system related error occurs.
-            print(f"[-]: Generic OS error occurred whilst attempting to open and write to {file_name}.")
+            print(f"[-]: Generic OS error occurred whilst attempting to open and write to {self.file_name}.")
             return False
 
         return True
