@@ -80,7 +80,7 @@ body {
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.75));
 }
 
-a:not(.nav-link) { /* Alter links, ignore Navigation links. */
+a:not(.nav-link):not(.blog-listing-wrapper) { /* Alter links, ignore Navigation/Blog Listing links. */
     color: #FFBFFF;
 
     text-decoration: none;
@@ -88,7 +88,7 @@ a:not(.nav-link) { /* Alter links, ignore Navigation links. */
     transition: all 0.5s ease;
 }
 
-a:hover:not(.nav-link) { /* Alter hovered links, ignore Navigation links. */
+a:hover:not(.nav-link):not(.blog-listing-wrapper) { /* Alter hovered links, ignore Navigation/Blog Listing links. */
     border-radius: 3px;
 
     background-color: #FFBFFF;
