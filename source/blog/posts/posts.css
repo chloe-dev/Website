@@ -18,6 +18,16 @@ code:not(pre code) {
     padding: 3px 3px;
 }
 
+img {
+    display: block;
+
+    margin: 0 auto;
+
+    height: auto;
+
+    max-width: 100%;
+}
+
 pre {
     border-radius: 10px;
 
